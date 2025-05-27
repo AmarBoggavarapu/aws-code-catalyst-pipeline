@@ -1,8 +1,8 @@
 from aws_cdk import (
     Stack,
-    aws_s3 as s3,
-    RemovalPolicy
-)
+    RemovalPolicy,
+    aws_s3 as s3, # Add the missing imports
+   )
 from constructs import Construct
 
 class CdkS3BucketStack(Stack):
